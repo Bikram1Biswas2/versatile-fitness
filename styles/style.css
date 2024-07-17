@@ -189,6 +189,9 @@ text strong{
     top: 25%;
     right: -5%;
 }
+.icon>i{
+    display: none;
+}
 
 /* banner-section style ends */
 
@@ -222,6 +225,23 @@ text strong{
     }
 
     /* Navbar-style Ends */
+
+    /* banner-section starts */
+    .banner-section{
+        flex-direction: column;
+    }
+    .blur-container1{
+        bottom: 43%;
+    }
+    .blur-container2{
+        right:-20%;
+        top: 10%;
+    }
+    .icon>i{
+        display: inline-block;
+        margin-left: 5px;
+    }
+    /* banner-section ends */
 
 }
 
