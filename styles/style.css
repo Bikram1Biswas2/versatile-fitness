@@ -29,7 +29,7 @@
 
   /* Navbar Style Starts */
   header{
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
   }
   .navbar{
@@ -61,4 +61,36 @@
   .home{
     padding: 8px 20px;
   }
+  .nav-link>ul>i{
+        display: none;
+  }
   /* Navbar Style Ends */
+
+
+
+
+
+
+
+  /* Responsive for mobile device */
+  @media screen and (max-width:576px) {
+    
+    body{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+/* Navbar-style starts */
+.nav-link>ul>li{
+    display: none;
+   
+}
+.nav-link>ul>i{
+display: inline-block;
+
+}
+.nav-link ul{
+border: none;
+}
+/* Navbar-style Ends */
+
+  }
