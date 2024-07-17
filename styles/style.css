@@ -15,5 +15,50 @@
   }
 
   body{
-    background-color: rgb(12, 12, 12);;
+    background-color: rgb(12, 12, 12);
+    color: white;
   }
+
+  /* Shared Style starts */
+  .primary-bg{
+    background-color: rgb(230, 83, 60);
+    border-radius: 46px;
+  }
+  /* Shared Style Ends */
+
+
+  /* Navbar Style Starts */
+  header{
+    width: 1140px;
+    margin: 0 auto;
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 55px;
+  }
+  .nav-logo{
+    color: rgb(230, 83, 60);
+    font-size: 2.2rem;
+    font-weight: 800;
+  }
+  .nav-link li{
+       text-decoration: none;
+      list-style-type: none;
+      font-size: 1.1rem;
+      font-weight: 400;
+  }
+  .nav-link ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+    border: 1px solid gainsboro;
+    border-radius: 46px;
+    padding: 5px;
+  }
+  .home{
+    padding: 8px 20px;
+  }
+  /* Navbar Style Ends */
