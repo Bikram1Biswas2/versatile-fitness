@@ -240,6 +240,30 @@ text strong{
 }
 /* Change your habits section style ends */
 
+/* Run an extra mile Section starts */
+.run-extra{
+    max-width: 1044px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+    margin-top: 90px;
+    background-color: rgba(34, 34, 34, 0.932);
+    padding: 30px 32px;
+    border-radius: 18px;
+}
+.run-extra-content, .run-extra-img {
+   flex: 1;
+} 
+.run-extra-content h2,p{
+    margin-bottom: 20px;
+}
+.run-extra-img img{
+    width: 100%;
+    border-radius: 18px;
+}
+/* Run an extra mile Section ends */
 
 
 
