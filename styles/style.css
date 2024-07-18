@@ -308,6 +308,9 @@ text strong{
         right:-20%;
         top: 10%;
     }
+      /* banner-section ends */
+
+      /* Change habit section */
     .icon>i{
         display: inline-block;
         margin-left: 5px;
@@ -316,10 +319,23 @@ text strong{
         grid-template-columns: 1fr;
         justify-items: center;
     }
+
+    /* run extra section */
+    .run-extra{
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+    .run-extra-content>button{
+        width: 100%;
+    }
+
     }
     
-    /* banner-section ends */
+  
 
+    /* run extra section */
+    
 
 
 
