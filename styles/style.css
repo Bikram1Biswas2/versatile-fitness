@@ -54,6 +54,13 @@ body p{
     font-weight: 900;
     margin-bottom: 14px;
 }
+.container-heading-box{
+    width: 600px;
+    display: flex;
+  flex-direction: column;
+   align-items: center;
+  
+}
 
 /* Shared Style Ends */
 
@@ -264,6 +271,67 @@ text strong{
     border-radius: 18px;
 }
 /* Run an extra mile Section ends */
+
+/*    <!-- BMI Calculator section starts --> */
+.bmi-calculator-container{
+ 
+}
+.bmi-calculator-container-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculate-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(34, 34, 34);
+    padding: 50px;
+}
+.bmi-table{
+    border: 1px solid ;
+    border-collapse: collapse;
+    color: #ffffff;
+    margin-top: 50px;
+}
+.bmi-table th, .bmi-table td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #333333;
+}
+.bmi-table th{
+    font-weight: bold;
+}
+.calculator-heading{
+    font-size: 1.6rem;
+    font-weight: 900;
+
+}
+.form-bmi{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+.calculate-bmi{
+    margin-bottom: 40px;
+}
+input, select{
+    padding: 10px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: rgba(255, 255, 255, 0.6);;
+}
+.last-option{
+   grid-column: span 2;
+}
+.calculate-desc{
+    margin-bottom: 25px;
+}
+.calculate-head{
+    margin-bottom: 50px;
+}
+/*    <!-- BMI Calculator section ends --> */
 
 
 
