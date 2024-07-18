@@ -24,8 +24,11 @@
 }
 
 body {
-    background-color: rgb(12, 12, 12);
+    background-color: black;
     color: white;
+}
+main>section{
+    margin-top: 90px;
 }
 
 /* Shared Style starts */
@@ -36,6 +39,7 @@ body {
 
 body p{
     color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
 }
 
 .btn-padding{
@@ -45,22 +49,32 @@ body p{
     font-size: 1.1rem;
     font-weight: 600;
 }
+.heading-primary{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
 
 /* Shared Style Ends */
 
 
 /* Navbar Style Starts */
+.header-container{
+    width: 100%;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+   
+}
 header {
     max-width: 1044px;
     margin: 0 auto;
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+   
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 55px;
+    padding-top: 55px;
 }
 
 .nav-logo {
@@ -128,6 +142,7 @@ header {
     margin-bottom: 28px;
     line-height: 30px;
 }
+
 .btn-download{
     padding: 16px 40px;
     border-radius: 46px;
@@ -195,6 +210,35 @@ text strong{
 
 /* banner-section style ends */
 
+/* Change your habits Section style starts */
+.change-habit{
+    text-align: center;
+    max-width: 1044px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+.habit-icons{
+    margin-top: 58px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 36px;
+}
+.habit-icon img{
+    border-radius: 50%;
+    width: 100%;
+}
+.habit-icon h5{
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.habit-icon p{
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-top: 15px;
+}
+/* Change your habits section style ends */
+
 
 
 
@@ -212,23 +256,25 @@ text strong{
     /* Navbar-style starts */
     .nav-link>ul>li {
         display: none;
-
     }
-
     .nav-link>ul>i {
         display: inline-block;
-
     }
-
     .nav-link ul {
         border: none;
     }
-
     /* Navbar-style Ends */
 
     /* banner-section starts */
     .banner-section{
         flex-direction: column;
+        gap: 60px;
+    }
+    .btn-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
     }
     .blur-container1{
         bottom: 43%;
@@ -241,9 +287,11 @@ text strong{
         display: inline-block;
         margin-left: 5px;
     }
+    }
+    
     /* banner-section ends */
 
-}
+
 
 
 /* Responsive for tablet device */
