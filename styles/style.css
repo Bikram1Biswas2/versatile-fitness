@@ -326,10 +326,13 @@ input, select{
    grid-column: span 2;
 }
 .calculate-desc{
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 .calculate-head{
-    margin-bottom: 50px;
+    margin-bottom: 12px;
+}
+.calculate-btn{
+    margin-top: 34px;
 }
 /*    <!-- BMI Calculator section ends --> */
 
@@ -397,7 +400,14 @@ input, select{
     .run-extra-content>button{
         width: 100%;
     }
-
+    /* calculate bmi */
+    .calculate-container{
+        flex-direction: column;
+    }
+    .calculate-head{
+        margin-top: 25px;
+    }
+ 
     }
     
   
@@ -435,5 +445,11 @@ input, select{
     .habit-icons{
         grid-template-columns: repeat(2,1fr);
         justify-items: center;
+    }
+    .calculate-container{
+        flex-direction: column;
+    }
+    .calculate-head{
+        margin-top: 25px;
     }
 }
