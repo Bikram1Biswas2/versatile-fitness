@@ -420,8 +420,49 @@ select {
     font-size: 1rem;
 }
 
+
 /* meet-our-team section ends */
 
+
+/* footer section starts */
+.footer{
+    background-color: rgba(255, 255, 255, 0.1);;
+    margin-top: 90px;
+    padding: 60px;
+}
+.footer-heading{
+    color: rgb(230, 83, 60);
+    font-size: 4.5rem;
+    font-weight: 800;
+}
+.footers{
+    max-width: 1044px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 36px;
+}
+.first-footer{
+    flex: 1;
+    margin-right: 80px;
+}
+.second-footer, .third-footer{
+    flex: 0.8;
+    gap: 10px;
+}
+.get-started{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.small-tag{
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+    
+}
+/* footer section ends */
 
 
 
@@ -515,11 +556,16 @@ select {
     }
     /* Teams section ends */
 
+    /* footer section starts */
+   
+
+    
+    /* footer section ends */
 }
 
 
 
-/* run extra section */
+
 
 
 
