@@ -557,7 +557,13 @@ select {
     /* Teams section ends */
 
     /* footer section starts */
-   
+    .footer{
+        width: 100%;
+    }
+    .footers{
+        flex-direction: column;
+        align-items: start;
+    }
 
     
     /* footer section ends */
