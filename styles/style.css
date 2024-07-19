@@ -385,7 +385,7 @@ select {
     margin-bottom: 50px;
 }
    .specialized-container{
-    width: 1044px;
+    max-width: 1044px;
     margin: 0 auto;
     text-align: center;
    }
@@ -592,6 +592,16 @@ select {
         margin-top: 25px;
     }
 
+    /* special classes starts */
+    .special-class-boxes{
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .special-class-box img{
+        width: 100%;
+        height: 70%;
+       }
+    /* special classes ends */
     /* Teams section starts */
     .teams-container{
         grid-template-columns: 1fr;
@@ -659,5 +669,8 @@ select {
 
     .calculate-head {
         margin-top: 25px;
+    }
+    .special-class-boxes{
+        grid-template-columns: repeat(2,1fr);
     }
 }
