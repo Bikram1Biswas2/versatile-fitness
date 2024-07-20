@@ -297,6 +297,32 @@ p {
 
 /* Run an extra mile Section ends */
 
+/* Training sections starts */
+.training-and-exercise{
+    max-width: 1044px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+.exercise-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+}
+.exercise-container img{
+       width: 100%;
+       height: 200px;
+}
+.exercise-box-1,.exercise-box-2,.exercise-box-3,.exercise-box-4,.exercise-box-5,.exercise-box-6{
+    position: relative;
+}
+.exercise-container p{
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+}
+
+/* Training sections ends */
+
 /*    <!-- BMI Calculator section starts --> */
 .bmi-calculator-container {
     margin-bottom: 90px;
@@ -391,7 +417,7 @@ select {
    }
    .special-class-box img{
     width: 100%;
-    height: 80%;
+    height: 280px;
     border-radius: 38px;
    }
    .special-class-box  h5{
@@ -407,7 +433,7 @@ select {
    
    .special-class-boxes{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     
    }
