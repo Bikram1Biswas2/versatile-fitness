@@ -32,6 +32,7 @@ main>section {
     margin-top: 90px;
 }
 
+
 /* Shared Style starts */
 .primary-bg {
     background-color: rgb(230, 83, 60);
@@ -69,10 +70,9 @@ body p {
 
 
 /* Navbar Style Starts */
-.header-container {
-    width: 100%;
-    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
-
+.header-container{
+    width:100%;
+    background: linear-gradient(180.00deg, rgb(77, 73, 73),rgba(79, 76, 76, 0) 100%); 
 }
 
 header {
@@ -574,13 +574,23 @@ select {
 
     .blur-container1 {
         bottom: 43%;
+        left: 10px;
     }
 
     .blur-container2 {
-        right: -20%;
-        top: 10%;
+        left:38%;
+        top: 16%;
     }
-
+    .info-box{
+        padding: 10px 10px;
+    }
+        .text strong {
+            font-size: 0.9rem;
+        }
+        
+        .text p {
+            font-size: 0.6rem;
+        }
     /* banner-section ends */
 
     /* Change habit section */
